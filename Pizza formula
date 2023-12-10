@@ -1,0 +1,24 @@
+// To determine the exact number of pizza boxes to order and avoid food waste.
+
+#include <iostream>
+
+int main() {
+
+    int numPeople;
+    
+    // Enter the number of people present in the office/event
+
+    std::cout << "Enter the number of people: ";
+    std::cin >> numPeople;
+    
+    // Calculate the number of pizza boxes (to order)
+
+    int numPizzaBoxes = (numPeople / 3) + 1;
+    
+    // Print Result
+    std::cout << "Number of pizza boxes to buy: " << numPizzaBoxes << std::endl;
+
+    return 0;
+}
+
+
